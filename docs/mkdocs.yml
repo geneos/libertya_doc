@@ -1,0 +1,13 @@
+site_name: Documentación Libertya Producción
+pages:
+- Home: 'index.md'
+- Contenidos:
+  - 'Ingeniería: Fórmulas': 'manufactura-bom.md'
+  - 'Ingeniería: Flujos de Trabajo': 'manufactura-flujos.md'
+  - 'Planificación: Planeamiento de Productos': 'manufactura-plan.md'
+  - 'Planificación: Pronóstico de Producción': 'manufactura-pronostico.md'
+  - 'Operación: Ordenes de Manufactura': 'manufactura-om.md'
+  - 'Operación: Operaciones con Ordenes': 'manufactura-om.md'
+  - 'Operación: Revisión a Detalle': 'manufactura-revision.md'
+  - 'Informes: Detalle': 'manufactura-informes.md'
+theme: readthedocs
