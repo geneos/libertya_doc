@@ -3,8 +3,8 @@
 1. Módulo de Ingeniería
 	1. [Listas de materiales](manufactura-bom.md)
 	1. [Flujos de Trabajo](manufactura-flujos.md)
-1. Módulo de Planificación
-	1. [Módulo de Planificación](manufactura-plan.md)
+1. Módulo de Planeamiento
+	1. [Módulo de Planeamiento](manufactura-plan.md)
 	1. [Pronóstico de Producción](manufactura-pronostico.md)
 1. Módulo de Operación
 	1. [Ordenes de Producción](manufactura-om.md)
