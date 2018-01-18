@@ -1,6 +1,3 @@
-Manufactura - Datos de Planificación de producto
-************************************************
- 
 Para calcular el Plan de Materiales, primero debemos configurar los **Datos de Planeamiento de los Productos** que intervienen en el proceso productivo.
 
 Los Datos de Planeamiento de los Productos varían según los productos sean comprados o fabricados. Para los primeros se deben configurar los datos relacionados a tiempos y políticas de compra, mientras que para los segundos, los datos y políticas de fabricación, entre ellos la **Lista de Materiales** y el **Flujo de Trabajo**.

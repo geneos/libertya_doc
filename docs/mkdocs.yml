@@ -7,7 +7,14 @@ pages:
   - 'Planificación: Planeamiento de Productos': 'manufactura-plan.md'
   - 'Planificación: Pronóstico de Producción': 'manufactura-pronostico.md'
   - 'Operación: Ordenes de Manufactura': 'manufactura-om.md'
-  - 'Operación: Operaciones con Ordenes': 'manufactura-om.md'
+  - 'Operación: Registro de Actividades': 'manufactura-om-act.md'
+  - 'Operación: Operaciones con Ordenes': 'manufactura-operaciones.md'
   - 'Operación: Revisión a Detalle': 'manufactura-revision.md'
+  - 'Operación: Proceso MRP': 'manufactura-proceso.md'
   - 'Informes: Detalle': 'manufactura-informes.md'
+- Extras:
+  - 'Checklist para correr el proceso de MRP': 'manufactura-checklist.md'
+  - 'Acerca de Geneos': 'manufactura-readme.md'
+  - 'Acerca de Libertya': 'libertya-readme.md'
+  - 'Colaborar en la documentación': 'doc-readme.md'
 theme: readthedocs

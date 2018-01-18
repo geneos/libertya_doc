@@ -1,6 +1,3 @@
-Manufactura - Flujos de Trabajo
-*******************************
-
 Los Flujos de Trabajo de Manufactura, definen la estructura de **Etapas productivas** y **Recursos** asociados a cada etapa.
 
 Tipos de Recursos de Manufactura

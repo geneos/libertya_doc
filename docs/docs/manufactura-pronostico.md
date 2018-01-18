@@ -1,6 +1,3 @@
-Manufactura - Pronóstico
-************************
-
 El Pronóstico permite definir la proyección de la producción que va a tener como entrada el proceso del MRP. Los elementos del pronóstico definen fechas y cantidades necesarias, para cada producto, generalmente a nivel de productos finales, lo que no quita que puedan agregarse pronósticos de productos intermedios. El pronóstico puede tener, una o varias de las siguientes entradas:
 
 * Producción por ventas planificadas
@@ -10,8 +7,8 @@ El Pronóstico permite definir la proyección de la producción que va a tener c
 * Otras
 
 
-Pronóstico - Cabecera
----------------------
+**Pronóstico - Cabecera**
+*************************
 
 1. Acceder a la opción del menú **Gestión de Manufactura →  Gestión de Planificación → Provisión/Pronóstico de Materiales**. El sistema presenta una ventana como lo muestra la Imagen Plan003.
 2. Campos a ingresar en la cabecera:
@@ -32,8 +29,8 @@ Pronóstico - Cabecera
 Imagen Plan003: Pronóstico
 
 
-Pronóstico - Detalles
----------------------
+**Pronóstico - Detalles**
+*************************
 
 1. Acceder a la opción del menú **Gestión de Manufactura →  Gestión de Planificación → Provisión/Pronóstico de Materiales**. El sistema presenta una ventana como lo muestra la Imagen Plan003. Seleccionar pestaña **Línea**, el sistema presenta una ventana como lo muestra la Imagen Plan004.
 2. Campos a ingresar:

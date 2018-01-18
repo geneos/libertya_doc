@@ -1,7 +1,4 @@
-Manufactura - Lista de Materiales
-*********************************
-
-Permite definir la composición de los productos fabricados, tanto intermedios como  terminados. Se pueden tener distintos niveles intermedios de producción, los  niveles intermedios definen la fabricación de productos que serán entrada de otros procesos productivos de niveles superiores.
+Las Listas de Materiales (LDM) permiten definir la composición de los productos fabricados, tanto intermedios como  terminados. Se pueden tener distintos niveles intermedios de producción, los  niveles intermedios definen la fabricación de productos que serán entrada de otros procesos productivos de niveles superiores.
 
 
 Lista de materiales y fórmulas
