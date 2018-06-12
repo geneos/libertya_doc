@@ -83,15 +83,39 @@ Imagen Oper019: Avisos
 
 **Referencias de Avisos**
 
-* MRP-001  | Cantidad Inicial menor que cero. Es negativa.
-* MRP-020  | Un pedido de aprovisionamiento debería ser creado para satisfacer un balance negativo proyectado. Este mensaje sólo es generado si "Crea Plan" es NO o si aparece un nuevo requerimiento de última hora.
-* MRP-030  | Indica que un pedido de aprovisionamiento va ser procesado antes de ser necesitado y debería de ser retrasado, o bien reprogramado a un estado anterior.
-* MRP-040  | Indica que un pedido de aprovisionamiento programado será entregado con mucha posterioridad a ser necesario y que debería de ser reprogramado a una fecha anterior o reprocesado a un estado posterior.
-* MRP-050  | Indica que un pedido de aprovisionamiento ya no es necesario y debería de ser borrado.
-* MRP-060  | Indica que un pedido programado debería de ser lanzado.
-* MRP-070  | Lanzar pedido retrasado. Indica que un pedido de aprovisionamiento no fue lanzado cuando debía, y debe de ser lanzado o aprovisionado ahora, o la demanda reprogramada para una fecha posterior.
-* MRP-080  | Cantidad por debajo del mínimo. Indica que un pedido de aprovisionamiento fue creado por una cantidad inferior a la cantidad mínima prevista en la planificación de stock del producto.
-* MRP-090  | Cantidad por encima del máximo. Indica que un pedido de aprovisionamiento fue creado por una cantidad mayor que la cantidad máxima prevista en la planificación de stock del producto.
-* MRP-100  | Indica que hay un requerimiento de material no satisfecho dentro de la planificación de stock para este producto. Debería ser programado manualmente o expedir pedidos de aprovisionamiento para cumplir con la demanda o posponer los requerimientos que crearon dicha demanda.
-* MRP-110  | No existe almacén de demanda. En la planificación del producto no figura la demanda.
-* MRP-120  | No existe almacén de suministros. En la planificación del producto no figura los suministros.
+* MRP-001: El mensaje se genera cuando la cantidad existente de un producto, se encuentra por debajo de los márgenes mínimos seguros (cantidad mínima).
+
+* MRP-020: El mensaje se genera cuando la existencia de un producto queda en valores negativos y debería crearse un pedido a proveedor para satisfacer una demanda. Este mensaje es creado si el campo "Crear Plan" está desactivado.
+Vea la ventana Datos de planificación.
+
+* MRP-030: El mensaje se genera cuando un pedido a proveedor puede llegar a ser procesado antes de ser necesitado. Se aconseja que el pedido se retrase o se reprograme a un estado anterior.
+
+* MRP-040: El mensaje se genera cuando una orden de manufactura será entregada con mucha posterioridad a ser necesaria y debería ser reprogramada a una fecha anterior o bien reprocesarla.
+
+* MRP-050: El mensaje se genera cuando un pedido a proveedor ya no es necesario y debería ser borrado.
+
+* MRP-060: El mensaje se genera cuando un pedido a proveedor se encuentra en estado borrador y debería completarse para ser aprobado.
+
+* MRP-070: El mensaje se genera cuando una orden de manufactura no fue lanzada en el momento debido, y debe ser lanzado ahora, o bien reprogramar la orden para una fecha posterior.
+
+* MRP-080: El mensaje se genera cuando un pedido a proveedor solicita una cantidad de un producto que es menor a la cantidad prevista en la planificación de stock. 
+Vea Artículos -> Datos de planificación.
+
+* MRP-090: El mensaje se genera cuando un pedido a proveedor solicita una cantidad de un producto que es mayor a la cantidad prevista en la planificación de stock. 
+Vea Artículos -> Datos de planificación.
+
+* MRP-100: El mensaje se genera cuando existe un requerimiento de material insatisfecho dentro del tiempo de protección planeado para este artículo. Para solucionarlo debería programarlo manualmente, acelerar órdenes para llenar la demanda o bien retrasar la satisfacción del requerimiento que creó la demanda.
+
+* MRP-110: El mensaje se genera cuando un pedido a proveedor está vencido.
+
+* MRP-120: El mensaje se genera cuando existe un producto que no tiene planeación ya sea de compra o manufactura.
+
+* MRP-130: El mensaje se genera cuando un producto no tiene proveedor asignado.
+
+* MRP-140: El mensaje se genera cuando el stock de un producto es negativo.
+
+* MRP-150: El mensaje se genera cuando existe una orden de manufactura vencida.
+
+* MRP-160: El mensaje se genera cuando se produce un error durante la creación de un documento.
+
+* MRP-999: El mensaje se genera cuando ocurre un error inesperado en el proceso MRP.
